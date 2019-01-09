@@ -9,8 +9,8 @@ import java.io.Serializable;
  * Created by Janus on 2018/9/8.
  */
 //@JsonIgnoreProperties(value = {"handler","hibernateLazyInitializer","fieldHandler"})
-@Entity //告诉JPA这是一个实体类（和数据表映射的类）
-@Table(name = "tb_user") //@Table来指定和哪个数据表对应;如果省略默认表名就是user；
+@Entity	 //告诉JPA这是一个实体类（和数据表映射的类）
+@Table(name = "tb_user")	 //@Table来指定和哪个数据表对应;如果省略默认表名就是user；
 public class User implements Serializable{
 
     @Id //这是一个主键
