@@ -8,6 +8,7 @@ import java.io.Serializable;
 /**
  * Created by Janus on 2018/9/8.
  * https://blog.csdn.net/j080624/article/details/82559318
+ * 
  */
 //@JsonIgnoreProperties(value = {"handler","hibernateLazyInitializer","fieldHandler"})
 //这是一个demo
